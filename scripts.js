@@ -14,7 +14,7 @@ class Sticker {
 }
 
 function preload() {
-    var kjersti = createImg("https://assets.website-files.com/6241e35a54c907894c9d60b1/62964bfef83fc145e4a473a6_KjerstiJorgenson.png");
+    var kjersti = loadImage("https://assets.website-files.com/6241e35a54c907894c9d60b1/62964bfef83fc145e4a473a6_KjerstiJorgenson.png");
     var sam = loadImage("https://assets.website-files.com/6241e35a54c907894c9d60b1/629663d5b58844a25f8eb872_SamChoiCadley.png");
     var cey = loadImage("https://assets.website-files.com/6241e35a54c907894c9d60b1/629663d51f3f009c6829b986_CeyAdams.png");
     var randi = loadImage("https://assets.website-files.com/6241e35a54c907894c9d60b1/629663d5fc028e0886013096_RandiBrookmanHarris.png");
