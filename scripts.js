@@ -50,7 +50,6 @@ function sticker() {
         clear();
         stickers.shift();
         for(let x=0; x<stickers.length; x++) {
-            print(stickers);
             image(stickers[x].sticker, stickers[x].x, stickers[x].y, stickers[x].size, stickers[x].size);
         }
     },1000);
