@@ -52,7 +52,7 @@ function sticker() {
         for(let x=0; x<stickers.length; x++) {
             image(stickers[x].sticker, stickers[x].x, stickers[x].y, stickers[x].size, stickers[x].size);
         }
-    },1500);
+    },3000);
 }
 
 function windowResized() {
