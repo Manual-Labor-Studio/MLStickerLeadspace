@@ -38,7 +38,7 @@ function mouseClicked() {
 }
 
 function sticker() {
-    var randSize = random(150,250); 
+    var randSize = random(200,300); 
     var x = mouseX - (randSize/2);
     var y = mouseY - (randSize/2);
     var randStickerIdx = int(random(stickerArtists.length));
@@ -53,7 +53,7 @@ function sticker() {
             print(stickers);
             image(stickers[x].sticker, stickers[x].x, stickers[x].y, stickers[x].size, stickers[x].size);
         }
-    },800);
+    },1000);
 }
 
 function windowResized() {
